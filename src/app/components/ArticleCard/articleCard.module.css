@@ -1,0 +1,32 @@
+.articleCard{
+    background-color: rgb(44, 41, 41);
+    border: 1px solid black;
+    color: rgb(221, 210, 210);
+    display: flex;
+    /* max-width: 80vh; */
+    margin: 20px 0px;
+    min-height: 10vh;
+}
+
+.articleCardContent{
+    display: flex;
+    height: 100%;
+    gap: 40px;
+    padding: 20px;
+}
+
+.articleCardImage {
+    height: 100%;
+    margin: auto;
+    max-width: 30vh;
+}
+
+.articleCardImage img {
+    width: 100%;
+}
+
+.page{
+    max-width: 1800px;
+    margin: auto;
+    padding: 20px;
+}

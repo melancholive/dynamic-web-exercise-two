@@ -1,10 +1,21 @@
 "use client"; // loads on the client side rather than on the server
+import styles from "./articleCard.module.css";
 
-const ArticleCard = ({title, description}) =>{
+const ArticleCard = ({title, date, description, link, imgSrc, imgAlt}) => {
     return(
-        <div>
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div className={styles.articleCard}>
+            <div className={styles.articleCardContent}>
+                <div className={styles.articleCardImage}>
+                    <img src={imgSrc} alt={imgAlt}></img>
+                </div>
+                <div>
+                    <h2>{title}</h2>
+                    <p>{date}</p>
+                    <p>{description}</p>
+                    <a>{link}</a>
+                </div>
+                
+            </div>
         </div>
     )
 }

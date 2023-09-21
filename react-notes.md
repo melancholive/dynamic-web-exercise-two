@@ -7,4 +7,32 @@
         const {title} = props; // destructuring --> grabs the exact key value
         return title;
     }
+- Accessing JSON elements
+    const json = {
+        {
+            itemOne: 'hi'
+        }
+    }
 
+    json[0].itemOne
+- Array Methods: Loop
+    for(let i = 0; i++; i <0){
+        //
+    }
+    array.forEach(() => {
+        //
+    })
+- Array Methods: Map
+    const array = ['hi', 'hello'];
+    array.map((text) => {
+        console.log(text)
+    })
+- Display Date:
+    const articleDate = (date) => {
+        if (!date) return "";
+        const parsedDate = new Date(date)
+        return parsedDate.toDateString();
+    }
+
+    OR (more unsafe)
+    new Date(date).toDateString()
