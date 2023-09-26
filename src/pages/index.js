@@ -17,7 +17,8 @@ export default function Home(){
                     title = {article.title}
                     date = {new Date(article.publishedDate).toDateString()}
                     description = {article.blurb}
-                    link = "http://localhost:3000"
+                    // link = "http://localhost:3000"
+                    id = {article.id}
                 />
             )}
                         

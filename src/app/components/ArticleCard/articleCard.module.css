@@ -30,3 +30,11 @@
     margin: auto;
     padding: 20px;
 }
+
+.articleLink{
+    color: rgb(221, 210, 210);
+}
+
+.articleLink:hover{
+    color: white;
+}
