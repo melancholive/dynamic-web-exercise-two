@@ -1,15 +1,25 @@
 .page{
     background-color: rgb(27, 26, 26);
     color: white;
-    margin: 0 auto;
+    margin: 0;
     max-width: 1800px;
     padding: 25px;
 }
 
-.header{
-    background-color: blue;
+.articlePage{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    height: 100%;
+    width: 100%;
 }
 
-.articleParagraphText{
-    color: black;
+.articleHeader{
+    background-size: cover;
+    width: 100%;
+}
+
+.articleWrapper{
+    margin: auto;
+    max-width: 640px;
+    padding: 25px;
 }

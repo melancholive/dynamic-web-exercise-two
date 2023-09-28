@@ -1,7 +1,7 @@
 .articleCard{
     background-color: rgb(44, 41, 41);
     border: 1px solid black;
-    color: rgb(221, 210, 210);
+    color: white;
     display: flex;
     /* max-width: 80vh; */
     margin: 20px 0px;
@@ -32,7 +32,7 @@
 }
 
 .articleLink{
-    color: rgb(221, 210, 210);
+    color: white;
 }
 
 .articleLink:hover{
